@@ -1,0 +1,130 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+h1{
+  text-align:center;
+  font-size: 6em;
+  height:50px;
+  color:#999999;
+  
+}
+.ningen{ 
+  animation: 1.5s shake infinite alternate ease;
+  animation-duration: 3.0s;
+  
+}
+
+@keyframes shake {
+  0% { transform: rotateY(-30deg); }
+  5% { transform: rotateY(30deg) scaleX(10deg) ; }
+  10% { transform: rotateY(-15deg); }
+  15% { transform: rotateY(15deg); }
+  20% { transform: rotateY(0deg) scaleX(50deg) ;}
+  100% { transform:rotateY(0deg); }  
+}
+
+body {
+  background-color: black;
+  font-family: "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka, ãƒ¡ã‚¤ãƒªã‚ª, Meiryo", "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS PGothic", "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯" , "MS Gothic", "Noto Sans CJK JP", "TakaoPGothic", sans-serif;
+  text-align:center;
+  color:#999999;
+
+}
+img {
+  z-index:1;
+  height:400px;
+  width:400px;
+  margin:auto;
+}
+img:hover {
+     height:400px;
+     width:400px;
+     visibility: hidden;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+} 
+    
+    
+table {
+  float: none;
+  margin:auto;
+  border :none;
+  width: 30%;
+  color:#999999;
+  font-weight:bold;
+  text-align:center;
+ 
+}
+
+td {
+  padding: 15px
+}
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+ a:link { 
+  color:#999999;
+  text-decoration:none;
+}
+ a:hover {
+  color:white;
+  text-decoration:none;
+}
+ a:visited {
+  color:#999999;
+  text-decoration:none;
+}
+  h1 {
+ 
+  }
+  .player {
+    float: none;
+  margin:auto;
+  border :none;
+  width: 40%;
+  color:#999999;
+  font-weight:bold;
+  padding-top:-50px;
+    }
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}   
+
+#gato {
+  width:15px;
+  height:20px;
+}
+
+.collapsible {
+  background-color: #777;
+  color: darkgrey;
+  cursor: pointer;
+  padding: 18px;
+  width: 55%;
+  border: groove;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: grey;
+  width: 70%;
+  margin:auto;
+}
+
+/* background-image:url(http://i.imgur.com/0EW4zom.gif);*/
